@@ -11,7 +11,7 @@ function server () {
     notify: false,
     open: false,
     reloadOnRestart: true,
-    port: 3050
+    port: 3000
   });
 };
 
