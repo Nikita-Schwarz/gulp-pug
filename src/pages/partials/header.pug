@@ -7,8 +7,11 @@ header.header#header
                     a(href="#").nav__link Главная
 
                 li.nav__item
+
                     button(aria-expandet="false", aria-controls="list").nav__link.has__subnav Походы
+
                     ul.subnav__list
+
                         li.subnav__item
                             a(href="#").subnav__link Фишт
                         li.subnav__item
@@ -22,20 +25,23 @@ header.header#header
         // NAV
 
     .header__right
+
         .social__icons
 
             a(href="", title="Telegram").social__link
-                +svg("icon", "telegram")
+                +icon("icon", "telegram")
 
             a(href="", title="Vkontakte").social__link
-                +svg("icon", "vk")
+                +icon("icon", "vk")
 
             a(href="", title="GitHub").social__link
-                +svg("icon", "github")
+                +icon("icon", "github")
+
         // ICONS
 
         form(action="", method="get").search
             input(type="search", name="", placeholder="Поиск")
+
         // SEARCH
 
 // HEADER
