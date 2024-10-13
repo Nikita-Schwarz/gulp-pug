@@ -1,0 +1,30 @@
+.subnav__list {
+    width: 20rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: grid;
+    line-height: 0;
+
+    background-color: $secondary;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+    color: transparent;
+    transition: line-height 0.5s, color 0.5s;
+}
+
+.subnav__item {
+    overflow: hidden;
+}
+
+.subnav__link {
+    font-size: 1.4rem;
+    display: block;
+    margin: 0.5lh 1.5rem 0.5lh ;
+
+    //transition: background-color .1s linear;
+
+    &:hover {
+        color: $orange;
+    }
+}
