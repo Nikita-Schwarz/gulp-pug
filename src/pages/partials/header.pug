@@ -1,0 +1,41 @@
+header.header#header
+    .header__left
+        nav.nav
+            ul.nav__list
+
+                li.nav__item
+                    a(href="#").nav__link Главная
+
+                li.nav__item
+                    button(aria-expandet="false", aria-controls="list").nav__link.has__subnav Походы
+                    ul.subnav__list
+                        li.subnav__item
+                            a(href="#").subnav__link Фишт
+                        li.subnav__item
+                            a(href="#").subnav__link Кировский
+                        li.subnav__item
+                            a(href="#").subnav__link Чёртов палец
+
+                li.nav__item
+                    a(href="#").nav__link Галерея
+
+        // NAV
+
+    .header__right
+        .social__icons
+
+            a(href="", title="Telegram").social__link
+                +svg("icon", "telegram")
+
+            a(href="", title="Vkontakte").social__link
+                +svg("icon", "vk")
+
+            a(href="", title="GitHub").social__link
+                +svg("icon", "github")
+        // ICONS
+
+        form(action="", method="get").search
+            input(type="search", name="", placeholder="Поиск")
+        // SEARCH
+
+// HEADER
