@@ -1,3 +1,3 @@
-import { BaseHelpers } from "./modules/baseHelpers.js";
+import { BaseHelpers } from './helpers/baseHelpers.js';
 
 BaseHelpers.checkWebpSupport();
